@@ -40,5 +40,6 @@ git clone https://github.com/VivekLpu/ai-safety-dashboard.git
 cd ai-safety-dashboard
 
 npm install
+
 npm start
 
