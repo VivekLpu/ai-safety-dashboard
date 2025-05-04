@@ -1,0 +1,85 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  top: 20px;
+  left: 30px; /* Adjusted for top-left position */
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  font-size: 0.7rem;
+  margin-bottom: 2px;
+  color: #666;
+}
+
+select {
+  padding: 6px 8px;
+  border-radius: 12px; /* Capsule shape */
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 0.85rem;
+}
+
+select:hover {
+  border-color: #007bff;
+  cursor: pointer;
+}
+
+.incident-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.incident-card {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.incident-card:hover {
+  background: #f1f1f1;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
